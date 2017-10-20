@@ -25,6 +25,8 @@ class AuthController extends Controller
 
     /*ログイン成功した場合の遷移先*/
     protected $redirectTo = '/';
+    /*ログイン失敗した場合の遷移先*/
+    protected $loginPath = '/login';
     
     /**
      * Create a new authentication controller instance.
